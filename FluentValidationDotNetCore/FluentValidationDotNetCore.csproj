@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\ExternalModels\ExternalModels.csproj" />
   </ItemGroup>
 
 
