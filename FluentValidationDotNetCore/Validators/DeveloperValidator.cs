@@ -21,7 +21,7 @@ namespace FluentValidationDotNetCore.Validators
                 .Length(2,10).WithMessage("first_name_length_should_be_between_2_and_10")
                 .Must(x=>x.All(char.IsLetter)).WithMessage("first_name_should_be_characters_only");
 
-            RuleFor(x=>x.Email).EmailAddress()
+            RuleFor(x => x.Email).EmailAddress();
         }
     }
 }
